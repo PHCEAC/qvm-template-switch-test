@@ -6,7 +6,8 @@ case $i in
     todo
 # todo : get the reversion tpl
 # guess : what is target vn
-# todo 
+# todo launch revert in background before testing?
+# need channel to skip wait.
 qvm-shutdown --wait sys-usb
 qvm-prefs sys-usb template fedora-43-xfce
 qvm-start sys-usb
